@@ -42,11 +42,12 @@
   <h3>MENU</h3>
 
   <ul>
+
+    <li> <a href="#" id="BtnQuienesSomosMenu"> ¿Quiénes somos? </a> </li>
+    <li> <a href="#" id="BtnHistoriaMenu"> Aventura </a> </li>
     <li> <a href="#Contenedorimg" id="BtnPersonajesMenu"> Personajes Historicos </a> </li>
      <li> <a href="#personajes" id="BtnPersonajesMenu"> Nuestros Campeones </a> </li>
-    <li> <a href="#" id="BtnHistoriaMenu"> Aventura </a> </li>
-    <li> <a href="#" id="BtnQuienesSomosMenu"> ¿Quiénes somos? </a> </li>
-    <li> <a href="#" id="BtnRaMenu"> Realidad Aumentada </a> </li>
+    <li> <a href="Realidad_Aumentada.html" id="BtnRaMenu">  Realidad Aumentada </a> </li>
     
   </ul>
 
@@ -156,57 +157,10 @@
           <h1>CONVIÉRTETE EN UN CAMPEÓN</h1>
           <!--Boton-->
 
- <button type="button" class="Botones Start" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Juega Gratís</button> 
+ <a href="STF_JuegoWeb/index.html" class="Botones Start">Juega Gratís</a>
 
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-       <div class="modal-content">
-         <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">INGRESE</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-
-
-        <form action="registrar.php" method="post">
-        <div class="form-group">
-        <label for="exampleInputName1">Nombre</label>
-        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su Nombre" name="nombre">
-        
-        </div>
-
-        <div class="form-group">
-        <label for="exampleInputEmail1">Correo</label>
-        <input type="email" class="form-control" id="exampleInputPassword1" placeholder=" Ingrese su Correo" name="correo">
-        </div>
-
-
-
-        <div class="form-group">
-        <label for="exampleInputPassword1">Contraseña</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" name="pass">
-        </div>
-
-        <div class="form-group ">
-        <label for="exampleInputPassword1">Edad</label>
-        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Ingrese su edad" name="edad">
-        </div>
-
-
-        <br>
-        <button type="submit" class="btn btn-outline-danger w-100">Enviar</button>
-    </form>
-
-
-      </div>
-      <div class="modal-footer">
-      </div>
-       </div>
-      </div>
-    </div>
+    
            <!--Boton-->
       </div>
       
@@ -226,7 +180,7 @@
   <div id="ComebackHome">
   </div>
 <!-- LOGO -->
-  <header class="Logo">
+  <header class="Logo" id="primero">
     <img src="Img/Logos/Marcas_Imagenes/Imagotipo/IMAGOTIPO_STF-OFFICIAL.png" width="240px" height="240px" alt="Logo">
   </header>
     <div class="Title">
@@ -617,7 +571,7 @@ A pesar de que los golpes bajo la cintura no están permitidos, en USA por ejemp
       </div>
 
       <p class="InFooter Home"><a href="../Administrador.php">Administrador</a></p>
-      <p class="InFooter About">Sobre Nosotros</p>
+      <p class="InFooter About"><a href="#primero">Sobre Nosotros</a></p>
       <p class="InFooter TalkUs">Contáctanos</p>
       <p class="InFooter Home"><a href="#ComebackHome">Inicio</a></p>
      
